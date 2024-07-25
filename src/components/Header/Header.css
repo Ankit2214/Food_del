@@ -4,8 +4,12 @@
     width: 80vw;
     height: 80vh;
     border-radius: 20px;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-bottom: 30px;
+}
+
+.header{
+    margin-bottom: 10px;
 }
 
 .header-contents{
@@ -15,13 +19,13 @@
     align-items: start;
     gap: 1.5vw;
     max-width: 50%;
-    bottom: 20%;
+    bottom: 8%;
     left: 16vw;
     animation: fadeIn 3s;
 }
 .header-contents h2{
     font-weight:500;
-    color: white;
+    color:orange;
     font-size: max(4.5vw,22px);
 }
 .header-contents p{
@@ -37,6 +41,7 @@
     font-size: max(1vw,13px);
     border-radius: 50px;
 }
+
 @media (max-width:1050px) {
     .header{
         height: 38vw;

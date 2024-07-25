@@ -1,14 +1,15 @@
 import React from 'react'
 import './Footer.css'
 import { assets } from '../../assets/assets'
+import Logo from './logo.jpeg'
 
 const Footer = () => {
   return (
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-            <img src={assets.logo} alt="" />
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <img src={Logo} alt="" className='logo' />
+            <p>FoodFlare is an innovative food delivery app that brings a burst of culinary excitement to your doorstep, offering a diverse selection of local and gourmet restaurants. Enjoy fast delivery, real-time tracking, and personalized recommendations for a delightful dining experience every time.</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
@@ -28,12 +29,12 @@ const Footer = () => {
             <h2>GET IN TOUCH</h2>
             <ul>
                 <li>+1-212-456-7890</li>
-                <li>contact@tomato.com</li>
+                <li>contact@foodflare.com</li>
             </ul>
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 © Tomato.com - All Right Reserved.</p>
+      <p className="footer-copyright">Copyright 2024 © FoodFlare.com - All Right Reserved.</p>
     </div>
   )
 }

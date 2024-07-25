@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='header'>
-        <img src={'https://t3.ftcdn.net/jpg/02/64/00/56/360_F_264005624_NyFEBO7k0OsNMQiI343zBZZ7WH89f6Ls.jpg'} alt='' className='background'/>
+        <img src={'https://static.vecteezy.com/system/resources/previews/037/236/648/non_2x/ai-generated-beautuful-fast-food-background-with-copy-space-free-photo.jpg'} alt='' className='background'/>
             <div className='header-contents'>
                 <h2>Order your favourite food here</h2>
                 <p>Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.</p>
